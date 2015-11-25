@@ -1,0 +1,332 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "widgets/stweather/stweather.coffee",
+			"settings":
+			{
+				"buffer_size": 848,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "package Control: install Package",
+		"selected_items":
+		[
+			[
+				"package Control: install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"autoindent",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/assets",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/dashboards",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/jobs",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/lib",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/stweather"
+	],
+	"file_history":
+	[
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/Gemfile",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/config.ru",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/Gemfile",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/dashboards/sample.erb",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/jobs/buzzwords.rb",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/assets/javascripts/application.coffee",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/jobs/sample.rb",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/widgets/hotmeter/hotmeter.coffe",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/widgets/hotmeter/hotmeter.html",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/widgets/meter/meter.html",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/widgets/hotmeter/hotmeter.scss",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/history.yml",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Engie - SmartOffice/Bio AFiebig",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Engie - SmartOffice/Reunion Propuesta Engie",
+		"/Users/afiebig/Workspace/Continuum/Engie/test/assets/stylesheets/application.scss",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Engie - SmartOffice/Hardware",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Engie - SmartOffice/DashBoards",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Corfo - EscritorioEmpresa/documentos/instalacion/datos_ambientes.txt",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Engie - SmartOffice/PruebasDashBoard/kwa",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Engie - SmartOffice/PruebasDashBoard/test",
+		"/Users/afiebig/Documents/clientes/Corfo/Historial Configuracion",
+		"/Users/afiebig/Desktop/Corfo/Doc Latex/propuestacorfo.tex",
+		"/Users/afiebig/Desktop/Corfo/Reunion 09:10:2015",
+		"/Users/afiebig/Desktop/Corfo/Doc Latex/propuesta_economica.tex",
+		"/Users/afiebig/Desktop/Corfo/Reunion 07:10:2015",
+		"/Users/afiebig/Desktop/Reunion 07:10:2015",
+		"/Users/afiebig/Desktop/Doc Latex/Entorno Ejecucion - Escritorio Empresas/propuesta_economica.tex",
+		"/Users/afiebig/Desktop/Doc Latex/Entorno Ejecucion - Escritorio Empresas/propuesta_economica.aux",
+		"/Users/afiebig/Desktop/Doc Latex/Entorno Ejecucion - Escritorio Empresas/propuesta_economica.bbl",
+		"/Users/afiebig/Desktop/Doc Latex/Entorno Ejecucion - Escritorio Empresas/propuesta_economica.blg",
+		"/Users/afiebig/Desktop/Doc Latex/Entorno Ejecucion - Escritorio Empresas/propuesta_economica.out",
+		"/Users/afiebig/Desktop/Doc Latex/Sistema de Bodega para Farmacia Gendarmeria de Chile/propuesta_economica.tex",
+		"/Users/afiebig/Desktop/Instalacion Corfo",
+		"/Users/afiebig/Desktop/Reunion 02:10:2015",
+		"/Users/afiebig/JBossFuse/docs/informacion-jboss-fuse.txt",
+		"/Users/afiebig/Desktop/JBossFuse/jboss-fuse-6.2.0.redhat-133/readme.txt",
+		"/Users/afiebig/Desktop/Reunion 29:09:2015 PM",
+		"/Users/afiebig/Desktop/Reunion 29:09:2015",
+		"/Volumes/Magnetoscopio/Dropbox (Personal)/Presentaciones/Iptables.tex",
+		"/Volumes/Magnetoscopio/Dropbox (Personal)/Presentaciones/lyx/aircrack.lyx",
+		"/Users/afiebig/Desktop/FVHP20150922010305.DAT",
+		"/Users/afiebig/VMShared/Tiket 83/20150915040305/Contenido Prueba",
+		"/Users/afiebig/VMShared/Tiket 83/20150915030305/Contenido Prueba",
+		"/Users/afiebig/VMShared/Tiket 83/20150915020305/Contenido Prueba",
+		"/Users/afiebig/VMShared/Tiket 83/20150915010305/Contenido Prueba",
+		"/Users/afiebig/Desktop/FVHP20150916993303.DAT",
+		"/Users/afiebig/Desktop/resultado_prueba/afp1033/entrada/FT0220150916993303.DAT",
+		"/Users/afiebig/Desktop/resultado_prueba/afp1033/salida/FT0220150916993303.EVALG",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150914020305/Contenido Prueba",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150914010305/Contenido Prueba",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150911060305/1.- Archivo TRAFIL02:",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150911050305/Contenido Prueba",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150911040305/Contenido Prueba",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150911030305/Contenido Prueba",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150911020305/Contenido Prueba",
+		"/Users/afiebig/VMShared/NuevosEjemplos/20150911010305/Contenido Prueba",
+		"/Users/afiebig/Desktop/Pauta Reunion CMH",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Previred - CMH/docs/Requerimientos mantención CMH/CMH-1083-TRAFIL04/Juegos de Archivo/Nuevo Formato/FTSL20150817010332.DAT",
+		"/Users/afiebig/Desktop/Regstro5Trasal",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Previred - CMH/docs/Requerimientos mantención CMH/CMH-1083-TRAFIL04/Juegos de Archivo/Archivos Entrada Flujo/FTSL20150803013403.DAT",
+		"/Users/afiebig/Downloads/untitled folder/FTSL20150803013403.DAT",
+		"/Users/afiebig/Downloads/untitled folder/FVHP20150803010334.DAT",
+		"/Volumes/Magnetoscopio/Dropbox (Personal)/Docs/SublimeText.lic",
+		"/Users/afiebig/Desktop/03_recibirDatosAfiliado.txt",
+		"/Users/afiebig/Desktop/02_obtenerDatosAfiliadpAFP.txt",
+		"/Users/afiebig/Desktop/06obtenerResultadoNotificacionTraspaso.txt",
+		"/Users/afiebig/Desktop/CMH - Archivos Muestra/Extraccion/vector_FL_20150715_1034.txt",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Previred - CMH/fuentes/BD_JBPM_QA.sql",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Previred - CMH/fuentes/BD_CMH_QA.sql",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Previred - CMH/docs/Requerimientos mantención CMH/CMH-1083-TRAFIL04/CMH-req-20150810.txt",
+		"/Users/afiebig/.bash_profile",
+		"/previred/servicios/traspasoafp.properties",
+		"/Users/afiebig/.bashrc",
+		"/Users/afiebig/Desktop/set_osx_java6.sh",
+		"/Users/afiebig/Workspace/Continuum/traspasoafp/config.sh",
+		"/Users/afiebig/Downloads/server.log",
+		"/Users/afiebig/dev/profile.txt",
+		"/Volumes/Magnetoscopio/Dropbox (Continuum)/Previred - Traspaso AFPS/Consola Auditoria - BackOffice/BD/2_funcion_formatea_sec_hora.sql",
+		"/Users/afiebig/Documents/clientes/previred/BuscarTransaccion.sql",
+		"/Users/afiebig/Desktop/ticket 1436976695299#bcdVwEOKL7VLExl::ooN3:+CHGKbp",
+		"/Users/afiebig/Workspace/Continuum/traspasoafp/traspasoafp-core/ReadMe.txt",
+		"/Users/afiebig/Workspace/Continuum/traspasoafp/traspasoafp-afp/afp.properties",
+		"/Volumes/Magnetoscopio/previred/traspasoafp/traspasoafp.properties",
+		"/Users/afiebig/.ssh/id_dsa.pub"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".\n",
+			"21 de octubre",
+			"22016",
+			"campo",
+			"<apellidoMaterno>MU",
+			"MUÑOZ",
+			"PACKAGE_EXTRACCION",
+			">",
+			"\n</",
+			"</(\\w+)>",
+			"</(\\w)+>",
+			"\n\n",
+			">",
+			"codigo",
+			"ant",
+			"vutreras",
+			"11:40:17,834 INFO  [stdout] (http-/127.0.0.1:8080-5)    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"</$1>\n",
+			"</$1>\n\n\n",
+			"</(\\w)+>\n\n",
+			"\n",
+			">\n",
+			"afiebig",
+			"vutreras",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "widgets/stweather/stweather.coffee",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "afcdashboard.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
