@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "widgets/stweather/stweather.coffee",
-			"settings":
-			{
-				"buffer_size": 848,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -23,10 +15,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 67.0,
-		"last_filter": "package Control: install Package",
+		"height": 127.0,
+		"last_filter": "package Control: in",
 		"selected_items":
 		[
+			[
+				"package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: re Package",
+				"Package Control: Remove Package"
+			],
 			[
 				"package Control: install Package",
 				"Package Control: Install Package"
@@ -36,7 +36,7 @@
 				"Set Syntax: XML"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -60,14 +60,24 @@
 	[
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard",
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/assets",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/assets/images",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/assets/javascripts",
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/dashboards",
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/jobs",
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/lib",
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets",
-		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/stweather"
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/stmeter"
 	],
 	"file_history":
 	[
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/dashboards/main.erb",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/lib/stapp.rb",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/jobs/smartthings.rb",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/sttemp/sttemp.coffee",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/stmeter/stmeter.coffee",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/sttemp/sttemp.html",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/jobs/heartbeat.rb",
+		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/widgets/stweather/stweather.html",
 		"/Users/afiebig/Workspace/Continuum/Engie/afcdashboard/Gemfile",
 		"/Users/afiebig/Workspace/Continuum/Engie/test/config.ru",
 		"/Users/afiebig/Workspace/Continuum/Engie/test/Gemfile",
@@ -155,13 +165,14 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -169,6 +180,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lrtemp",
+			"dispatch",
+			"celcious",
+			"fahrenheit",
+			"fahrenheit\n",
+			"highlight",
 			".\n",
 			"21 de octubre",
 			"22016",
@@ -193,6 +210,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"celsius",
+			"celcious",
+			"celcious\n",
 			"</$1>\n",
 			"</$1>\n\n\n",
 			"</(\\w)+>\n\n",
@@ -211,39 +231,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "widgets/stweather/stweather.coffee",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 848,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -286,7 +275,7 @@
 	"project": "afcdashboard.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
