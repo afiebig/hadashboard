@@ -18,8 +18,7 @@ Dashing.on 'ready', ->
 
   contentWidth = (Dashing.widget_base_dimensions[0] + Dashing.widget_margins[0] * 2) * Dashing.numColumns
 
-if $(window).width() > 768
-
+#if $(window).width() > 768
   Batman.setImmediate ->
     $('.gridster').width(contentWidth)
     $('.gridster > ul').gridster
