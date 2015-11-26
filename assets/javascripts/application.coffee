@@ -19,6 +19,7 @@ Dashing.on 'ready', ->
   contentWidth = (Dashing.widget_base_dimensions[0] + Dashing.widget_margins[0] * 2) * Dashing.numColumns
 
 if $(window).width() > 768
+
   Batman.setImmediate ->
     $('.gridster').width(contentWidth)
     $('.gridster > ul').gridster
@@ -28,6 +29,6 @@ if $(window).width() > 768
       draggable:
         stop: Dashing.showGridsterInstructions
         start: -> Dashing.currentWidgetPositions = Dashing.getWidgetPositions()
-#    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) )
-#       $('.gridster > ul').each ->
-#         $(@).gridster().data('gridster').draggable().disable()
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) )
+       $('.gridster > ul').each ->
+         $(@).gridster().data('gridster').draggable().disable()
